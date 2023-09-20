@@ -12,7 +12,7 @@ spec:
   target: simple
   context: default
   prune: true
-
+  manual: true
 
 
 
