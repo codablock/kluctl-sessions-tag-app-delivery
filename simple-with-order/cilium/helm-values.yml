@@ -7,3 +7,6 @@ nodePort:
 
 kubeProxyReplacement: strict
 policyEnforcementMode: default
+
+operator:
+  replicas: 1
