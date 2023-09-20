@@ -1,0 +1,18 @@
+apiVersion: gitops.kluctl.io/v1beta1
+kind: KluctlDeployment
+metadata:
+  name: simple
+  namespace: kluctl-system
+spec:
+  interval: 1m
+  timeout: 1m
+  source:
+    url: https://github.com/codablock/kluctl-sessions-tag-app-delivery
+    path: simple-with-vars
+  target: simple
+  context: default
+  prune: true
+
+
+
+
