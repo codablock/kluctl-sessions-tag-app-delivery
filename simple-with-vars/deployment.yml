@@ -1,0 +1,5 @@
+vars:
+  - file: env-{{ target.name }}.yaml
+
+deployments:
+  - path: nginx

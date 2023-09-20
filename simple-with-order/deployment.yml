@@ -1,0 +1,8 @@
+vars:
+  - file: env-{{ target.name }}.yaml
+
+deployments:
+  - path: namespaces
+  - path: cilium
+  - barrier: true
+  - path: nginx
