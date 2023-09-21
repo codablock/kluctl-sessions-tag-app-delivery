@@ -1,3 +1,5 @@
 vars:
   - file: ./test.yaml
+    noOverride: true
   - file: subdir/test.yaml
+    noOverride: true
