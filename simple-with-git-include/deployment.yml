@@ -1,0 +1,8 @@
+vars:
+  - file: env-{{ target.name }}.yaml
+
+deployments:
+  - path: nginx
+  - git:
+      url: git@github.com:codablock/kluctl-sessions-tag-app-delivery.git
+      subDir: simple-with-git-include/git-include

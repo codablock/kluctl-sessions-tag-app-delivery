@@ -1,0 +1,12 @@
+discriminator: "{{ target.name }}"
+
+targets:
+  - name: simple
+    args:
+      environment: simple
+  - name: another
+    args:
+      environment: another
+
+args:
+  - name: environment
