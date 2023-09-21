@@ -1,2 +1,3 @@
 vars:
   - file: ./test.yaml
+  - file: subdir/test.yaml
