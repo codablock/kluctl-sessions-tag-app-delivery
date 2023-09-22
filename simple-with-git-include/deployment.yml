@@ -5,7 +5,7 @@ deployments:
   - path: nginx
   - git:
       url: git@github.com:codablock/kluctl-sessions-tag-app-delivery.git
-      subDir: simple-with-git-include/git-include1
+      subDir: simple-with-git-include/git-include2
   - git:
       url: git@github.com:codablock/kluctl-sessions-tag-app-delivery.git
-      subDir: simple-with-git-include/git-include2
+      subDir: simple-with-git-include/git-include1
